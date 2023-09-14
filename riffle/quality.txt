@@ -1,0 +1,22 @@
+The average quality of shuffles:
+Number of shuffles (over 30 trials) | average quality 
+1 | 0.780952
+2 | 0.663946
+3 | 0.593878
+4 | 0.532653
+5 | 0.504762
+6 | 0.514966
+7 | 0.508163
+8 | 0.494558
+9 | 0.504762
+10 | 0.494558
+11 | 0.508844
+12 | 0.507483
+13 | 0.500680
+14 | 0.506803
+15 | 0.495918
+
+I believe it is necessary to shuffle an array of length 50 approximately 5 times.
+In all runs of these statistics, the average quality reaches 0.5 at 5 shuffles.
+Any more shuffles are evidently not improving the quality of the shuffle. 
+For a standard card game, 4 shuffles still achieves reasonably sufficient quality. However, I believe that 5 is the optimum number.
